@@ -1,0 +1,15 @@
+{
+  "name": "gpt-3.5-turbo",
+  "setup": "npm install",
+  "options": {
+    "model": {
+      "OPENAI_KEY": {
+        "prompt": "Enter your OpenAI API Key:",
+        "subprompt": null,
+        "type": "string"
+      }
+    },
+    "agent": {}
+  },
+  "serve": "node server.js"
+}
